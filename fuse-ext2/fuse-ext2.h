@@ -34,7 +34,7 @@
 #    include <sys/sysmacros.h>
 #endif
 
-#include <fuse.h>
+#include <fuse/fuse.h>
 #include <ext2fs/ext2fs.h>
 
 #if !defined(FUSE_VERSION) || (FUSE_VERSION < 26)
